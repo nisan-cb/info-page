@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color:whitesmoke;
+}
+.border{
+    border: 1px solid powderblue;
+}
+.grid-container {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    /* background-color: black; */
+    width: 100%;
+    height: 100vh;
+  }
+#top-bar{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+a:link {
+    text-decoration: none;
+    /* color: royalblue; */
+}
+a:hover{
+    text-decoration: underline;
+}
+#side-bar{
+    width: 160px;
+    /* padding: 0 20px; */
+    position: absolute;
+    /* display: inline; */
+    top: 0;
+    /* font-size: 12px; */
+}
+#side-bar img{
+    height: 160px;
+    margin: 0 auto;
+    margin-left: 20px;
+}
+#side-bar ul{
+    margin-top: 30px;
+    list-style-type: none;
+    font-size: 0.75em;
+    line-height: 1.125em;
+    color: rgb(6, 69, 173);
+    margin-left: -15px;
+}
+#side-bar li{
+    margin: 8px 0;
+}
+
+#content{
+    padding: 20px;
+    margin: 0 0 0 180px;
+    background-color: white;
+    min-height: 100vh;
+}
+#content h1, h2{
+    font-size: 1.8rem;
+    font-family: "Linux Libertine", Georgia, Times, serif;
+    font-weight: normal;
+    padding-bottom: 8px;
+    border-bottom: 1px solid darkgray;
+    margin: 0 0 20px 0;
+}
+
+#content p{
+    line-height: 1.6;
+    /* width: 80%; */
+    font-size: calc(0.875em);
+    margin-bottom: 50px;
+    
+}
+#content img{
+    position: absolute;
+    right: 10px;
+    /* width: 200px; */
+    top:200px;
+}
+#contents{
+    background-color: whitesmoke;
+    margin: 50px 0;
+    width: fit-content;
+    padding: 10px 20px 30px 5px;
+}
